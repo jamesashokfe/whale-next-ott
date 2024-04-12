@@ -1,5 +1,8 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
-    <main></main>
+    <main className="flex min-h-screen flex-col container">
+    </main>
   );
 }
