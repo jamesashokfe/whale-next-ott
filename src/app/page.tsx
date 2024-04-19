@@ -1,8 +1,12 @@
-import Link from "next/link";
+import HighlightedMovieList from "@components/HighlightedMovieList";
+import MovieList from "@components/MovieList";
 
 export default function Home() {
+  // @TODO - fetch data and prepare HighlightedMovieList and MovieList components.
   return (
-    <main className="flex min-h-screen flex-col container">
+    <main className="flex flex-col grow container">
+      <HighlightedMovieList></HighlightedMovieList>
+      <MovieList></MovieList>
     </main>
   );
 }
