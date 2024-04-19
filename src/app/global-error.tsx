@@ -1,8 +1,9 @@
 "use client";
 
 import type { Metadata } from "next";
-import "@/app/globals.css";
 import GenericError from "./components/GenericError";
+
+import "@/app/globals.css";
 
 export const metadata: Metadata = {
   title: "Error | Whalepop Streaming",
