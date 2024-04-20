@@ -29,6 +29,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+// @TODO
+// IMPORTANT: Add Suspense/fallback for streaming.
 export default async function Page({ params }: Props) {
   const { id } = params;
   const movie = await getMovie(id);

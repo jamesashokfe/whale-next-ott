@@ -29,6 +29,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+// @TODO
+// IMPORTANT: Add Suspense/fallback for streaming.
 export default async function Page({ params }: Props) {
   const { name } = params;
   const category = await getCategory(name);
@@ -37,6 +39,7 @@ export default async function Page({ params }: Props) {
     <main className="flex flex-col grow container">
       {/* Category trending movie list */}
       <HighlightedMovieList></HighlightedMovieList>
+
       {/* Category movie list */}
       <MovieList></MovieList>
     </main>

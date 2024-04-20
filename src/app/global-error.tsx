@@ -1,7 +1,7 @@
 "use client";
 
 import type { Metadata } from "next";
-import GenericError from "./components/GenericError";
+import GenericError from "@components/GenericError";
 
 import "@/app/globals.css";
 

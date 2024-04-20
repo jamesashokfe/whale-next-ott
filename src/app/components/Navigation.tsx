@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const Navigation = () => {
+export default function Navigation() {
   // @TODO
   // - loop over input menu list and create menu links,
   // - mobile burger menu.
@@ -18,5 +18,3 @@ const Navigation = () => {
     </nav>
   );
 };
-
-export default Navigation;

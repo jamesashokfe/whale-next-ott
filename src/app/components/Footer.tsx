@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const Footer = () => {
+export default function Footer() {
   // @TODO replace with valid links.
   return (
     <footer className="w-full flex flex-col items-center p-4">
@@ -16,5 +16,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;
