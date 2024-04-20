@@ -12,7 +12,7 @@ const Header = () => {
           alt="Whalepop Streaming Logo"
           width={50}
           height={25}
-          className="h-auto"
+          className="h-auto object-contain"
         ></Image>
         <span className="header__title text-xl">Whalepop Streaming</span>
       </Link>
